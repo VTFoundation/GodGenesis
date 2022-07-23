@@ -78,6 +78,13 @@ pip3 install -r requirements.txt
 
 python3 c2c.py
 
+Use Pyinstaller or Nuitka to compile and test on the targeted AV's and Endpoints
+
+Nuitka Command : python -m nuitka payload.py --standalone --onefile --windows-disable-console
+
+
+Pyinstaller Command : pyinstaller payload.py --target-arch x86_64 --noconsole --key 1234GodlikeBro! --onefile
+
 ```
 
 It is worth mentioning that [Suman Chakraborty](https://github.com/ANON4MOUS)
