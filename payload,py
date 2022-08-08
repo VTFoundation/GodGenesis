@@ -20,6 +20,7 @@ import shutil
 from datetime import timezone, datetime, timedelta
 from github import Github
 
+
 code = b"""
 def reliable_send(data):
     json_data = json.dumps(data)
