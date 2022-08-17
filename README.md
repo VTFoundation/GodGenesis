@@ -36,8 +36,8 @@ The List Of Commands It Supports :-
                 ===================================================================================================
                   DATA EXFILTRATION COMMANDS:
                 ===================================================================================================
-                            download *file_name*  --> Download Files From Compromised System
-                            upload *file_name*    --> Uploads Files To Victim Pc
+                            download *file_name*  --> Download Files Through Github
+                            upload *file_name*    --> Uploads Files Through Github
 
 
                 ===================================================================================================
