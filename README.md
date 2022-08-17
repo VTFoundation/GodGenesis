@@ -1,5 +1,4 @@
 # Welcome To God Genesis
-![FinalGod](https://user-images.githubusercontent.com/66937297/175554898-58c56076-7cf9-4b1d-9d5d-2f2b27a9c0e3.png)
 
 God Genesis is a C2 server purely coded in Python3 created to help Red Teamers and Penetration Testers. 
 Currently It only supports TCP reverse shell but wait a min, its a FUD and can give u admin shell from any targeted WINDOWS Machine.
@@ -87,9 +86,19 @@ Pyinstaller Command : pyinstaller payload.py --target-arch x86_64 --noconsole --
 
 ```
 
-It is worth mentioning that [Suman Chakraborty](https://github.com/ANON4MOUS)
-have contributed in the framework by coding the the the Fud Keyloger, Wifi Password Extraction and Chrome Password Dumper modules. 
-
+How To Get The Github Token and use it :
+```
+Find the old token in line number 76
+Go to GitHub settings
+Go to the bottom of the menu that appears on the left
+Click on Developer Settings
+Click on Personal Access Tokens
+Click on Generate New Token
+Select expiration as per need
+Select scope as per need (by default select all)
+Click on generate token
+Replace the old token with the new one
+```
 
 https://user-images.githubusercontent.com/66937297/175561859-a0e9f9dd-1e59-46da-a8e9-197d800bee37.mp4
 
