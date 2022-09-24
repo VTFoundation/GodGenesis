@@ -6,3 +6,5 @@ sqlite3
 pywin32
 pycryptodome
 cryptography
+datetime
+github
